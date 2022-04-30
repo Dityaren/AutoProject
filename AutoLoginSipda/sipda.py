@@ -9,7 +9,7 @@ sg.theme('SandyBeach')
 layout = [
 	[sg.Text('Tolong masukkan Nim dan Password Sipda Anda')],
 	[sg.Text('Nim : ', size =(15, 1)), sg.InputText()],
-    [sg.Text('Password :', size=(15, 1)), sg.InputText('', password_char='*')],
+   	[sg.Text('Password :', size=(15, 1)), sg.InputText('', password_char='*')],
 	[sg.Submit('Simpan & Mulai'), sg.Cancel('Batal')]
 ]
 warning = [
